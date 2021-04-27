@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Pakko</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="logo"><a href="#"><img src="img/logo.svg" alt="Logo" class="logo__img"></a></div>
+                    <!-- Hamburger menu -->
+                <div class="menu-toggle">
+                    <span class="menu-toggle__lines"></span>
+                </div>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a data-goto=".plans" href="#" class="menu__link">Tarifs</a></li>
+                        <li class="menu__item"><a data-goto=".testimonials" href="#" class="menu__link">App iOS</a></li>
+                        <li class="menu__item"><a data-goto=".footer" href="#" class="menu__link">Me connecter</a></li>
+                        <li class="menu__item menu__item_btn"><a href="#" class="menu__btn">S'inscrire</a></li>
+                    </ul>
+                    <div class="menu__overlay"></div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="promo m-top">
+        <div class="container">
+            <h1 class="promo__title">Devis, factures, suivi, <br> plafonds, cotisations</h1>
+            <p class="promo__text">Pakko accompagne les micro-entrepreneurs et leur fait gagner du temps !</p>
+            <div class="promo__buttons">
+                <a href="#" class="promo__btn-main">Créer mon compte</a>
+                <a href="#" class="promo__btn-second">Voir la vidéo</a>
+            </div>
+            <img class="promo__img" src="img/promo_img.png" alt="Promo image">
+        </div>
+    </section>
+    <section class="plans" id="plans">
+        <div class="container">
+            <h2 class="plans__title">Des tarifs qui s'adaptent <br> à votre activité !</h2>
+            <div class="plans__items">
+                <div class="plans__column">
+                    <div class="plans__item item-plan">
+                        <div class="item-plan__header item-plan__header_1">
+                            <div class="item-plan__info">
+                                <img class="item-plan__title" src="img/logo_white.svg" alt="Logo">
+                                <p class="item-plan__name item-plan__name_1">Gratuit</p>
+                            </div>
+                        </div>
+                        <div class="item-plan__body item-plan__body_1">
+                            <ul class="item-plan__list">
+                                <li class="item-plan__benefit item-plan__benefit_1">Gratuit</li>
+                                <li class="item-plan__benefit item-plan__benefit_1">Jusqu'à 4 clients</li>
+                                <li class="item-plan__benefit item-plan__benefit_1">Chiffre d'affaires jusqu'à 5 000€</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="plans__column">
+                    <div class="plans__item item-plan">
+                        <div class="item-plan__header item-plan__header_2">
+                            <div class="item-plan__info">
+                                <img class="item-plan__title" src="img/logo_white.svg" alt="Logo">
+                                <p class="item-plan__name item-plan__name_2">Basique</p>
+                            </div>
+                            <div class="item-plan__price">5€<span> /mois</span></div>
+                        </div>
+                        <div class="item-plan__body item-plan__body_2">
+                            <ul class="item-plan__list">
+                                <li class="item-plan__benefit item-plan__benefit_2">30 jours d'essai gratuits</li>
+                                <li class="item-plan__benefit item-plan__benefit_2">Clients illimités</li>
+                                <li class="item-plan__benefit item-plan__benefit_2">Chiffre d'affaires jusqu'à 30 000€</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="plans__column">
+                    <div class="plans__item item-plan">
+                        <div class="item-plan__header item-plan__header_3">
+                            <div class="item-plan__info">
+                                <img class="item-plan__title" src="img/logo_white.svg" alt="Logo">
+                                <p class="item-plan__name item-plan__name_3">Pro</p>
+                            </div>
+                            <div class="item-plan__price">12€<span> /mois</span></div>
+                        </div>
+                        <div class="item-plan__body item-plan__body_3">
+                            <ul class="item-plan__list">
+                                <li class="item-plan__benefit item-plan__benefit_3">30 jours d'essai gratuits</li>
+                                <li class="item-plan__benefit item-plan__benefit_3">Clients illimités</li>
+                                <li class="item-plan__benefit item-plan__benefit_3">Chiffre d'affaires illimité</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="testimonials__items">
+                <div class="testimonials__column">
+                    <div class="testimonials__item item-testimonial item-testimonial_1">
+                        <h2 class="item-testimonial__title">Ils en parlent <br>mieux que nous</h2>
+                    </div>
+                    <div class="testimonials__item item-testimonial item-testimonial_2">
+                        <div class="item-testimonial__header">
+                            <div class="item-testimonial__person">
+                                <img src="img/icons/testimonials/t_customer1.png" alt="Person" class="item-testimonial__img">
+                            </div>
+                            <div class="item-testimonial__info">
+                                <h3 class="item-testimonial__name">Antony Legrand</h3>
+                                <p class="item-testimonial__additional">@Wisibility</p>
+                            </div>
+                            <div class="item-testimonial__icon">
+                                <img src="img/icons/testimonials/t_twitter.svg" alt="Twitter icon">
+                            </div>
+                        </div>
+                        <p class="item-testimonial__text">Merci pour toutes vos réponses concernant un bon service de facturation / suivi de CA pour les Free… Je crois qu'avec @Pakko_app j'ai trouvé ce que je cherche. Simple et efficace.</p>
+                        <a href="" class="item-testimonial__link">Voir le post</a>
+                    </div>
+                    <div class="testimonials__item item-testimonial item-testimonial_3">
+                        <div class="item-testimonial__header">
+                            <div class="item-testimonial__person">
+                                <img src="img/icons/testimonials/t_person.svg" alt="Person" class="item-testimonial__img">
+                            </div>
+                            <div class="item-testimonial__info">
+                                <h3 class="item-testimonial__name">Retour utilisateur</h3>
+                                <p class="item-testimonial__additional">Formulaire de feedback</p>
+                            </div>
+                            <div class="item-testimonial__icon">
+                                <img src="img/icons/testimonials/t_comment.svg" alt="Comment icon">
+                            </div>
+                        </div>
+                        <p class="item-testimonial__text">Un onboarding clair et vraiment bien pensé. +10 pour les liens vers le site de l’URSSAF lors de l’inscription.</p>
+                    </div>
+                </div>
+                <div class="testimonials__column">
+                    <div class="testimonials__item item-testimonial item-testimonial_4">
+                        <div class="item-testimonial__header">
+                            <div class="item-testimonial__person">
+                                <img src="img/icons/testimonials/t_person.svg" alt="Person" class="item-testimonial__img">
+                            </div>
+                            <div class="item-testimonial__info">
+                                <h3 class="item-testimonial__name">Retour utilisateur</h3>
+                                <p class="item-testimonial__additional">Formulaire de feedback</p>
+                            </div>
+                            <div class="item-testimonial__icon">
+                                <img src="img/icons/testimonials/t_comment.svg" alt="Comment icon">
+                            </div>
+                        </div>
+                        <p class="item-testimonial__text">UC’est exactement ce que je cherchais.</p>
+                    </div>
+                    <div class="testimonials__item item-testimonial item-testimonial_5">
+                        <div class="item-testimonial__header">
+                            <div class="item-testimonial__person">
+                                <img src="img/icons/testimonials/t_customer2.png" alt="Person" class="item-testimonial__img">
+                            </div>
+                            <div class="item-testimonial__info">
+                                <h3 class="item-testimonial__name">Matthieu Teyssandier</h3>
+                                <p class="item-testimonial__additional">@m_teyssandier</p>
+                            </div>
+                            <div class="item-testimonial__icon">
+                                <img src="img/icons/testimonials/t_twitter.svg" alt="Twitter icon">
+                            </div>
+                        </div>
+                        <p class="item-testimonial__text">@Pakko_app Best service de CA !</p>
+                        <a href="" class="item-testimonial__link">Voir le post</a>
+                    </div>
+                    <div class="testimonials__item item-testimonial item-testimonial_6">
+                        <div class="item-testimonial__header">
+                            <div class="item-testimonial__person">
+                                <img src="img/icons/testimonials/t_person.svg" alt="Person" class="item-testimonial__img">
+                            </div>
+                            <div class="item-testimonial__info">
+                                <h3 class="item-testimonial__name">Retour utilisateur</h3>
+                                <p class="item-testimonial__additional">Formulaire de feedback</p>
+                            </div>
+                            <div class="item-testimonial__icon">
+                                <img src="img/icons/testimonials/t_comment.svg" alt="Comment icon">
+                            </div>
+                        </div>
+                        <p class="item-testimonial__text">Le service a l’air super ça faisait longtemps que je cherchais un dashboard aussi clean que le votre ! Ça donne envie de l'utiliser !</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id="footer">
+        <div class="container">
+           <div class="footer__wrapper">
+               <div class="footer__info">
+                   <img src="img/logo.svg" alt="Footer logo" class="footer__logo">
+                   <p class="footer__text">Gagnez du temps, <br>faites ce que vous aimez !</p>
+                   <div class="footer__icons">
+                       <div class="footer__icon">
+                           <a href="" class="footer__icon-link"><img src="img/icons/facebook.svg" alt="Facebook icon"></a> 
+                       </div>
+                       <div class="footer__icon">
+                        <a href="" class="footer__icon-link"><img src="img/icons/instagram.svg" alt="Instagram icon"></a>
+                       </div>
+                      <div class="footer__icon">
+                        <a href="" class="footer__icon-link"><img src="img/icons/linkedin.svg" alt="Linkedin icon"></a>
+                      </div>
+                   </div>
+               </div>
+               <nav class="footer__nav nav-footer">
+                   <h3 class="nav-footer__title">Fonctionnalités</h3>
+                   <ul class="nav-footer__list">
+                       <li class="nav-footer__item"><a href="#" class="nav-footer__link">Suivi et analyse de l'activité</a></li>
+                       <li class="nav-footer__item"><a href="#" class="nav-footer__link">Devis & facturation</a></li>
+                       <li class="nav-footer__item"><a href="#" class="nav-footer__link">Gestion des projets et clients</a></li>
+                   </ul>
+               </nav>
+               <nav class="footer__nav nav-footer">
+                <h3 class="nav-footer__title">À propos</h3>
+                <ul class="nav-footer__list">
+                    <li class="nav-footer__item"><a href="#" class="nav-footer__link">Tarifs</a></li>
+                    <li class="nav-footer__item"><a href="#" class="nav-footer__link">Centre d'aide</a></li>
+                    <li class="nav-footer__item"><a href="#" class="nav-footer__link">CGV</a></li>
+                    <li class="nav-footer__item"><a href="#" class="nav-footer__link">Politique de confidentialité</a></li>
+                </ul>
+            </nav>
+            <nav class="footer__nav nav-footer">
+                <h3 class="nav-footer__title">Ressources</h3>
+                <ul class="nav-footer__list">
+                    <li class="nav-footer__item"><a href="#" class="nav-footer__link">Deals</a></li>
+                    <li class="nav-footer__item"><a href="#" class="nav-footer__link"></a></li>
+                    <li class="nav-footer__item"><a href="#" class="nav-footer__link">Outils</a></li>
+                    <li class="nav-footer__item"><a href="#" class="nav-footer__link">Blog</a></li>
+                    <li class="nav-footer__item"><a href="#" class="nav-footer__link">Simulateur TJM</a></li>
+                </ul>
+            </nav> 
+           </div> 
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
